@@ -2023,8 +2023,8 @@ input[type="checkbox"] {
 
 .quantity__input[type="number"] {
   -moz-appearance: textfield;
-  -webkit-appearance: none;
-  appearance: none;
+  -webkit-appearance: textfield;
+  appearance: textfield;
 }
 
 .quantity__rules {
