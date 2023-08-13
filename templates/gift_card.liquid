@@ -92,10 +92,20 @@
     {% endstyle %}
 
     {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+      {{
+        settings.type_body_font
+        | font_url
+        | prepend: '<link rel="preload" as="font" href="'
+        | append: '" type="font/woff2" crossorigin>'
+      }}
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+      {{
+        settings.type_header_font
+        | font_url
+        | prepend: '<link rel="preload" as="font" href="'
+        | append: '" type="font/woff2" crossorigin>'
+      }}
     {%- endunless -%}
 
     {{ 'template-giftcard.css' | asset_url | stylesheet_tag }}
@@ -135,6 +145,7 @@
             alt=""
             height="{{ 570 | divided_by: 1.5 }}"
             width="570"
+            loading="lazy"
           >
         {%- endif %}
       </div>
