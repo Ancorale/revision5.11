@@ -1,0 +1,74 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "5954c3b6-9f0b-45ba-b0ee-0967f6c9e966": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><a href=\"http:\/\/fireapesfd.com\" title=\"http:\/\/fireapesfd.com\"><strong>fireapesfd.com<\/strong><\/a><\/p>"
+          }
+        },
+        "e042f5d7-309c-48cc-8888-9a0c076644bc": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><a href=\"https:\/\/fireapesfd.com\/pages\/associated-links\" target=\"_blank\"><strong>Associated Links<\/strong><\/a><\/p>"
+          }
+        },
+        "13283a0f-c7e8-4b2f-a179-59f8a1f4b770": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><a href=\"\/pages\/about-us\" target=\"_blank\" title=\"JUST ABOUT\"><strong>About Us<\/strong><\/a><\/p><p><\/p>"
+          }
+        },
+        "3a967487-417f-4fb9-aee1-aa05fa9baaca": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<h1><a href=\"tel:1-702-971-9152\" title=\"tel:1-702-971-9152\"><strong>Call: 1-702-971-9152<\/strong><\/a><\/h1>"
+          }
+        },
+        "54570abf-5214-475d-be5f-6a0cbf4e29e8": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": ""
+          }
+        }
+      },
+      "block_order": [
+        "5954c3b6-9f0b-45ba-b0ee-0967f6c9e966",
+        "e042f5d7-309c-48cc-8888-9a0c076644bc",
+        "13283a0f-c7e8-4b2f-a179-59f8a1f4b770",
+        "3a967487-417f-4fb9-aee1-aa05fa9baaca",
+        "54570abf-5214-475d-be5f-6a0cbf4e29e8"
+      ],
+      "custom_css": [
+        "div {text-align: center; color: #000;}",
+        ".footer__content-bottom-wrapper {display: initial;}"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

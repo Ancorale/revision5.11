@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "b0cf15a6-64ee-492f-b303-b929ce30d7c8": {
+      "type": "video-background",
+      "blocks": {
+        "template--16805493145829__b0cf15a6-64ee-492f-b303-b929ce30d7c8-video-1": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d8c3a6e392042128dce8af67b79b297.mp4",
+            "overlay_opacity": 0,
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--16805493145829__b0cf15a6-64ee-492f-b303-b929ce30d7c8-video-1"
+      ],
+      "settings": {
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        "div > div > div.center.collection__view-all.scroll-trigger.animate--slide-in > a {background-color: #e34126; color: #ffffff;}"
+      ],
+      "settings": {
+        "title": "INNOVATION",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "promotional-items",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "cf77d23f-4fb0-4c19-8e07-cce4e6a4585b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16780267028709__cf77d23f-4fb0-4c19-8e07-cce4e6a4585b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "100% Satisfaction Guarantee",
+            "heading_size": "h1"
+          }
+        },
+        "template--16780267028709__cf77d23f-4fb0-4c19-8e07-cce4e6a4585b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buy with confidence! Our 100% satisfaction guarantee means you're always covered. We're so confident you'll love our products, we offer a 30-day money-back guarantee. If you're not happy with your purchase, simply return it for a full refund, no questions asked!<\/p>"
+          }
+        },
+        "template--16780267028709__cf77d23f-4fb0-4c19-8e07-cce4e6a4585b-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16780267028709__cf77d23f-4fb0-4c19-8e07-cce4e6a4585b-heading-1",
+        "template--16780267028709__cf77d23f-4fb0-4c19-8e07-cce4e6a4585b-text-1",
+        "template--16780267028709__cf77d23f-4fb0-4c19-8e07-cce4e6a4585b-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "b0cf15a6-64ee-492f-b303-b929ce30d7c8",
+    "featured_collection",
+    "cf77d23f-4fb0-4c19-8e07-cce4e6a4585b"
+  ]
+}
