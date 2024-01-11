@@ -2023,8 +2023,8 @@ input[type="checkbox"] {
 
 .quantity__input[type="number"] {
   -moz-appearance: textfield;
-  -webkit-appearance: textfield;
-  appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .quantity__rules {
@@ -3593,4 +3593,8 @@ details-disclosure > details {
 /* My css */
 a.appstle_manageSubBtn > button {
   color: white !important;
+}
+
+div.as-text-2xl.as-font-bold.as-leading-7.as-text-gray-900.sm\:as-text-3xl.as-px-6 {
+  display: none;
 }
